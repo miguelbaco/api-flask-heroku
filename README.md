@@ -7,7 +7,8 @@ We create an initial CreateUser API.
 
 *command*: python3 api.py
 
-*client test*: curl -v -X POST  -H 'Content-Type: application/json' -d '{"user":"miguelbaco","password":"contrasenadeprueba"}' http://localhost:5003/CreateUser 
+*client test*: curl -v -X POST -H 'Content-Type: application/json' -d '{"user":"miguelbaco","password":"contrasenadeprueba"}' http://thawing-inlet-77565.herokuapp.com/CreateUser
+
 
 *improvement*: Using the Flask-Login module for to allow some login funcionality.
 
