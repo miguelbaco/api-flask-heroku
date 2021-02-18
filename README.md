@@ -14,6 +14,6 @@ We create an initial CreateUser API.
 
 
 Steps for heroku:
-  -touch procfile
+  -touch Procfile
   -pip freeze > requirements.txt
   -Link up github repository with heroku app
